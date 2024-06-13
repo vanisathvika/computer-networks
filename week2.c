@@ -21,12 +21,14 @@
 		quot[i]=temp[0];
 		if(quot[i]=='0')
 		 for (j=0;j<keylen;j++)
-		 key[j]='0'; else
+		    key[j]='0'; 
+		else
 		 for (j=0;j<keylen;j++)
-		 key[j]=key1[j];
-		for (j=keylen-1;j>0;j--) {
+		    key[j]=key1[j];
+		    for (j=keylen-1;j>0;j--) {
 			if(temp[j]==key[j])
-			 rem[j-1]='0'; else
+			 rem[j-1]='0'; 
+			else
 			 rem[j-1]='1';
 }
 		rem[keylen-1]=input[i+keylen];
