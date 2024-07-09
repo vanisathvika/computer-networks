@@ -2,7 +2,6 @@
 #include<stdlib.h>
 int main()
 {
-
 int i,j,noframes,x,x1=10;
 for(i=0;i<200;i++)
 rand();
