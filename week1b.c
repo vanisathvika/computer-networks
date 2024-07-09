@@ -8,25 +8,17 @@ int main()
     printf("Enter the Data:");
     gets(a);
     n=strlen(a);
-
     for(i=0;i<n;i++)
     {
-
-
-
         if((a[i] == 'd' && a[i+1]=='l' && a[i+2]=='e')||
 (a[i] == 'E' && a[i+1]=='S' && a[i+2]=='C'))
         {
             c[k++] = 'E';
             c[k++] = 'S';
             c[k++] = 'C';
-
         }
         c[k++] = a[i];
     }
-
-
-
     c[k++] = '\0';
 
     b[j++]='\0';
